@@ -1,0 +1,41 @@
+(ExpressProject "MainBoard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\backuppower.olb"
+        (Type "Schematic Library"))
+      (File "..\lib\standarddevices.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mainboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\backuppower.olb")
+      (Select "Design Resources" "Library" "..\lib\backuppower.olb" "BQ20Z65"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 441"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 1236 75 377")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2218 690")
+        (Zoom "504"))
+      (Path "D:\PCB\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (Package "BQ20Z65")))
+  (MPSSessionName "YuShui"))

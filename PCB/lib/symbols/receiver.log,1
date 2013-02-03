@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : receiver.dra                                  )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Thu Mar 01 15:37:44 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = F:/circuits/PINFET/lib/symbols
+    Name      = receiver.bsm
+    User      = YuShui
+    Machine   = DEVELOPER-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
