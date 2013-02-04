@@ -14,28 +14,109 @@
     (CompileFileAddedOrDeleted "x"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (Resistor
+      (FullPartName "Resistor.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (TP0610K
+      (FullPartName "TP0610K.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (NDS0605
+      (FullPartName "NDS0605.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (2N7002
+      (FullPartName "2N7002.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (Si4435
+      (FullPartName "Si4435.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (BAT54C
+      (FullPartName "BAT54C.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BQ24765RUV
+      (FullPartName "BQ24765RUVB.Normal")
+      (LibraryName "D:\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
+      (DeviceIndex "1"))
+    ("RESISTOR VAR 2"
+      (FullPartName "RESISTOR VAR 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR VAR"
+      (FullPartName "RESISTOR VAR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\mainboard.dsn")
+      (Path "Design Resources" ".\mainboard.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\mainboard.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\lib\backuppower.olb")
-      (Select "Design Resources" "Library" "..\lib\backuppower.olb" "BQ20Z65"))
+      (Select "Design Resources" ".\mainboard.dsn" "Design Cache" "Si4435"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 441"))
+        (Placement "44 0 1 -1 -1 -8 -30 12 436 1 442"))
       (Tab 0))
     (Doc
-      (Type "COrPartDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1236 75 377")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2218 690")
-        (Zoom "504"))
-      (Path "D:\PCB\PCB\BACKUPPOWER\PCB\LIB\BACKUPPOWER.OLB")
-      (Package "BQ20Z65")))
-  (MPSSessionName "YuShui"))
+        (Placement "44 2 3 -1 -1 -8 -30 25 853 25 293")
+        (Scroll "133 156")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path "D:\PCB\BACKUPPOWER\PCB\MAINBOARD\MAINBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "YuShui")
+  (LastUsedLibraryBrowseDirectory "D:\PCB\BackupPower\PCB\lib"))
